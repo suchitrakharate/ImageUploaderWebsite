@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %} home  {% endblock title %}
+
+
+       {% block body %}
+                       <!-- {% for message in messages  %}            
+      <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+            <strong>Message : </strong> {{ message }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+      {% endfor %}  -->
+
+      <div class="container-fluid home1">
+          {% for message in messages  %}            
+      <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+            <strong>Message : </strong> {{ message }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+      {% endfor %} 
+
+        <div class="heading">
+          <h1>Welcome To Our Website</h1>
+          <h4>It is the simple and fast way to share your screenshort and images online.</h4>
+        </div>
+        <div class="button">
+        <a href="/home"  class="btn btn-dark btn-outline-light ">Start Uploading</a>
+      </div>
+      </div>
+
+       {% endblock body %}
+
+  

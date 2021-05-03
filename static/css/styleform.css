@@ -1,0 +1,36 @@
+  .container-fluid{
+    /* background:linear-gradient(rgba(37, 37, 37, 0.7),rgba(10, 10, 10, 0.7)) , url("/static/images/sun.jpg"); */
+    background:  url("/static/images/sun.jpg");
+    height: 100%;
+    width: 100vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+    color:white;
+    /* font-family:sans-serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+   
+
+ }
+
+
+.h{
+    text-align: center;
+     padding-top: 80px;
+     font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.form-container{
+    border: 0px solid white;
+    margin-left: 450px;
+    margin-right: 450px;
+    /* padding: 90px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 5vh;
+    -webkit-box-shadow:-1px 4px 26px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow:-1px 4px 26px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
